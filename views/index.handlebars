@@ -22,7 +22,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-5">
-        <div class="text-center"><h1>Tech News</h1></div>
+        <div class="text-center"><h1>Verge News</h1></div>
     </div>
   </div>
 </div> {{!-- .container-fluid --}}
@@ -47,9 +47,6 @@
             <button type="submit" class="btn btn-default" id="submitNote">Add</button>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
       </div>
 
     </div>
@@ -67,7 +64,7 @@
                 <li>
                   <p data-id={{this._id}}>{{this.title}}</p>
                   <a href={{this.link}}>Link</a>
-                  <button data-id={{this._id}} class="save">Save</button>
+                  <button data-id={{this._id}} class="saved">Save</button>
                 </li>
             </div>
           {{/each}}

@@ -1,21 +1,21 @@
 {
-  "name": "mongo_scraper",
+  "name": "mongoHw",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattwhite8/mongo_scraper.git"
+    "url": ""
   },
   "author": "Matt White",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mattwhite8/mongo_scraper/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/mattwhite8/mongo_scraper#readme",
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.17.1",
     "cheerio": "^0.22.0",

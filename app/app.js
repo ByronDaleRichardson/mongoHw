@@ -1,12 +1,11 @@
 $(document).ready(function(){
-    console.log('I work');
+    console.log('YES');
 
     var _id;
 
     $("#scrape").on('click', function(){
 
       $.get("/scrape", function(){
-        alert('success');
       })
       .done(function(){
         window.location = "/";
@@ -17,7 +16,7 @@ $(document).ready(function(){
 
     });
 
-    $("#inner").on('click', '.favorite', function(){
+    $("#inner").on('click', '.saved', function(){
       _id = $(this).attr('data-id');
 
       $.post("/saved/" + _id, function(){
@@ -32,7 +31,7 @@ $(document).ready(function(){
 
     });
 
-    $("#inner").on('click', '.unfavorite', function(){
+    $("#inner").on('click', '.unsaved', function(){
       _id = $(this).attr('data-id');
 
       $.post("/unsaved/" + _id, function(){
