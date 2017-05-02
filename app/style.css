@@ -1,0 +1,72 @@
+body {
+  padding-top: 70px;
+  background-color: orange;
+}
+
+h1 {
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  color: purple;
+  list-style: none;
+}
+
+li {
+  margin: 13px 0 13px 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+button.favorite {
+  background-image: grey;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+button.unfavorite {
+  background-image: black;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  background: grey;
+}
+
+.navbar-default .navbar-brand {
+  color: purple;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: purple;
+  background: transparent;
+  border-style: solid;
+}
+
+a.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid#inner {
+  background: black;
+  padding: 0;
+}
+
+.row {
+  background-color: orange;
+  margin: 5px;
+}
+
+div.note-body {
+  padding: 5px 0 5px 0;
+}
