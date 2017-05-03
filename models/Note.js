@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
-// Create Schema
+// Creates Schema
 var NoteSchema = new Schema({
   body: {
     type: String,
@@ -9,7 +9,7 @@ var NoteSchema = new Schema({
   }
 });
 
-// Create model with Schema
+// Creates model with Schema
 var Note = mongoose.model("Note", NoteSchema);
 
 module.exports = Note;

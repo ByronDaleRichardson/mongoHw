@@ -68,6 +68,10 @@ a.navbar-brand {
   margin: 5px;
 }
 
+.modal-content {
+  background-color: purple;
+}
+
 div.note-body {
   padding: 5px 0 5px 0;
 }
